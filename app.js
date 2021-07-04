@@ -1,6 +1,4 @@
-const h1 = document.querySelector("div.hello:first-child h1");
-function handleTitleClick() {
-    h1.classList.toggle("clicked");
-}
-
-h1.addEventListener("click", handleTitleClick);
+//const loginForm = document.querySelector("#login-form");같은데 # 넣어줘야함.
+const loginForm = document.getElementById("login-form");
+const loginInput = loginForm.querySelector("input");
+const loginButton = loginForm.querySelector("button");
