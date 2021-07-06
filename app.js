@@ -10,7 +10,7 @@ function onLoginBtnClick() {
  const username = loginInput.nodeValue;
  if( username === ""){
      alert("ここにお名前を入力して下さい");
- } else if(username.length){
+ } else if(username.length > 15 ){
      alert("お名前が長いです。。")
  }
 }
