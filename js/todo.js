@@ -5,7 +5,7 @@ const toDoList = document.getElementById("todo-list");
 
 const TODOS_KEY ="todos";
 //이전 정보 최신정보 바뀔수있게 let으로
-let toDos = [] ;
+let toDos = [];
 
 function saveToDos(){
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
