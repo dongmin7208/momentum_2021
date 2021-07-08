@@ -9,5 +9,7 @@ function getClock() {
     clock.innerText=`${hours}:${minutes}:${seconds}`;
 
 }
-getClock();
+//00에서 하기싫어 페이지로딩되면 바로 가져와줘
+getClock(); 
 setInterval(getClock, 1000);
+//실시간으로 시간보여줘
