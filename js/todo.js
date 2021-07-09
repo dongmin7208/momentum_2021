@@ -14,8 +14,10 @@ function saveToDos(){
 
 function deleteToDo(event){
 const li = event.target.parentElement;
-console.log(li.id);
 li.remove();
+toDos = toDos.filter((toDo) => toDo.id !== parseInt(li.id));
+saveToDos();
+//toDo.id스트링 li.id넘버임
 // console.log(event)
 // console.log(event.target)
 // console.log(event.target.parentElement)
@@ -64,5 +66,9 @@ if(savedToDos !== null) {
     toDos = parsedToDos;
     parsedToDos.forEach(paintToDo);
     // parsedToDos.forEach((item) => console.log("e",item));
-     
+}
+//지우고 싶은 item을 제외하고 새 array를 만든다.
+
+function sexyFilter(){
+
 }
