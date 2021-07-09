@@ -7,5 +7,6 @@ const bgImage = document.createElement("img");
 //html에서는 랜덤으로 사진나오게 할수있는 기능없으니 자스 사용
 bgImage.src = `img/${pakuImage}`;
 document.body.appendChild(bgImage);
+bgImage.id= 'bgImage';
 
 

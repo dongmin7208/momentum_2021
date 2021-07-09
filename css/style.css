@@ -1,4 +1,204 @@
+/* 1em=16px,(html,body * 1.5em =1.5em ) 
+    rem= root(html) em  , 
+*/
 .hidden {
-    display: none;
+    display:none;
+}
+/*Javascript에서 className 부여로 요소를 숨기기 위함*/
+
+*{
+    /* box-sizing: border-box; */
+}
+body{
+    font-family: 'Baloo Tammudu 2', 'Noto Sans KR', sans-serif;
+    -ms-user-select: none; 
+  -moz-user-select:none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
+#bgImage{
+    position:fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    filter: brightness(50%);
+}
+
+#login-form{
+    text-align:center;
+    color:white;
+    margin:0 auto;
+    
+}
+    #login-form input:first-child{
+        /* 이름적는칸 */
+        text-align: center;
+        color:white;
+        font-size:21px;
+        font-weight:600;
+        padding: 10px;
+        width: 240px;
+        background-color: rgba(255,255,255,0.4);
+        border:none;
+        transition: all, 0.4s;
+        border-radius:30px;
+    }
+        #login-form input:first-child:hover{
+            background-color: rgba(255,255,255,0.4);
+        }   
+        #login-form input:hover::-webkit-input-placeholder{ /*placeholder color change*/
+            color: rgb(50, 50, 50);
+        }
+        #login-form input:first-child:focus{
+            outline:none;
+            border-bottom: 1px solid white;
+            background-color:rgba(0,0,0,0);
+        }
+    #login-form input:nth-child(2){
+        margin-left:20px;
+        width:100px;
+        height:40px;
+        border-radius:30px;
+        border:none;
+        background-color:rgba(255,255,255,0.6);
+        color: rgb(80,80,80);
+        font-size:16px;
+        font-weight: 600;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+        outline: none;
+        cursor: pointer;
+        transition: all, 0.4s;
+    }
+    #login-form input:nth-child(2):hover{
+        background-color:rgba(255,255,255,0.8)
+    }
+        #login-form input:nth-child(2):active{
+            background-color:darkgray;
+            color:white;
+            outline: none;
+        }
+
+#clock{
+    text-align: center;
+    height:260px;
+    font-size:130px;
+    margin:10 0 250px 0;
+    color:white;    
+}
+#greeting{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size:32px;
+    font-weight: 500;
+    
+}
+#todo-form{
+    text-align: center;
+    margin-top:20px;
+    
+}
+#todo-form input{
+    text-align: center;
+    color:white;
+    font-size:25px;
+    width: 540px;
+    height:40px;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-weight: 700;
+    border:none;
+    transition: all, 0.9s;
+    border-radius:30px;
+}
+    #todo-form input:hover{
+        background-color: rgba(255,255,255,0.4);
+    }
+    #todo-form input:hover::-webkit-input-placeholder{ /*placeholder color change*/
+        color: rgba(7, 7, 7, 0.769);
+    }
+    #todo-form input:focus{
+        outline:none;
+        border-bottom: 3px solid white;
+        background-color:rgba(0,0,0,0);
+    }
+#todo-list{
+    /* text-align:justify; */
+    /* column-rule: 10px; */
+    /* column-rule-width: 100px; */
+    /* column-gap: normal; */
+    /* flex:auto; */
+    /* column-count: 3; */
+    text-align: center;
+    flex-wrap: wrap;
+    /* display:flex; */
+    /* width: auto; */
+    /* row-gap: 1px; */
+    /* display: flex; */
+    
+    /* grid-template-columns: repeat(auto-fill, minmax(50%, auto)); */
+}
+#todo-list li{
+
+         /* flex-direction: row; */
+         display: list-item;
+
+        /* flex-shrink: 1; */
+        list-style: none;
+        color:rgba(250,250,250,0.8);
+        /* margin-top:40px;
+        margin-bottom:50px;
+        margin-right: 0;
+        margin-left: 0; */
+        font-size:20px;
+        /* width:540px; */
+        /* margin: 0 0; */
+    }
+    #todo-list li:hover{
+        color:rgb(255, 166, 0);
+    }
+    #todo-list button{
+        margin-left:10px;
+        background-color:rgba(255,255,255,0);
+        outline: none;
+        color:white;
+        font-weight: 700;
+        width:30px;
+        height:30px;
+        border:none;
+        font-size:35px;
+    }
+    #todo-list button:hover{
+        cursor:grab;
+    }
+#quote{
+    text-align: center;
+    position:fixed;
+    bottom:20px;
+    margin-left: 36px;
+    font-size:16px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.8);
+}
+    #quote:hover{
+        color:rgb(121, 199, 223);
+
+    }
+#weather{
+    position:fixed;
+    top:20px;
+    right:40px;
+    color:white;
+    font-size:15px;
+    font-weight: 700;
+}
+    #weather:hover{
+        color:rgb(0, 195, 255);
+    }
