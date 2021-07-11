@@ -24,21 +24,17 @@ github,io Address [`🔗`]()
 #### 📦How to run
 
 Development Environment Version  
-node.js -v12.18.4  
 npm -v 6.14.6  
 Visual Studio code -v 1.57  
 git -v 2.32.0.window.1
 
 ```sh
-$ npm install npx -g
 ```
 
 ```sh
-$ npx create-react-app movie_app_2021
 ```
 
 ```sh
-$ npm start
 ```
 
 ```sh
