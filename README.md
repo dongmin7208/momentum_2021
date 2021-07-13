@@ -2,10 +2,6 @@
 
 ## 🚩 Table of Contents
 
-| translation                            |
-| -------------------------------------- |
-| [`🎌 日本語`](./contents/jp/README.md) |
-| [`🇰🇷 한국어`](./contents/kr/README.md) |
 
 - [🗼Screen](#screen)
 - [📦How to run](#how-to-run)
@@ -17,71 +13,39 @@
 
 ### 🗼Screen
 
-![FRONT](./image/movie.gif)
+![FRONT](./img/readme/momentum.gif)
 
-github,io Address [`🔗`]()
 
 #### 📦How to run
 
 Development Environment Version  
-npm -v 6.14.6  
-Visual Studio code -v 1.57  
-git -v 2.32.0.window.1
+Visual Studio code -v  1.58  
+git -v 2.32.0
 
 ```sh
-```
-
-```sh
-```
-
-```sh
-```
-
-```sh
-$ npm i prop-types
-```
-
-```sh
-$ npm i axios
-```
-
-```sh
-$ npm i gh-pages
-```
-
-```sh
-$ npm run build   <<json.scripts
-```
-
-```sh
-$ npm run deploy   <<json.scripts
+    mac:      command + L + O
+    windows:  ALT     + O
 ```
 
 ### 🔧Main techniques used
 
 | Name                                                                                                                    | Description                                |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [`propTypes`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Movie.js)               | Type Error Prevention And For readability  |
-| [`HashRouter`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/App.js)                           | Router utilizing hash in URL               |
-| [`componentDidMount`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/routes/Home.js)            | For "component" and "Life Cycle.:recycle:" |
-| [`map`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/routes/Home.js)                          | To use the received value.                 |
-| [`@media screen and`](https://github.com/dongmin7208/react-movieapp-frontend/blob/master/src/components/Navigation.css) | Use for responsive web                     |
+| [`fetch()`](https://github.com/dongmin7208/momentum_2021/blob/main/js/weather.js)               | Use fetch to connect API  |
+| [`JSON`](https://github.com/dongmin7208/momentum_2021/blob/main/js/todo.js)                           | replacing an object with a string               |
+| [`setInterval()`](https://github.com/dongmin7208/momentum_2021/blob/main/js/clock.js)            | Method repeats of real-time |
+| [`event handlers`](https://github.com/dongmin7208/momentum_2021/blob/main/js/greetings.js)                          | The event type can be detected and passed to the listener.                 |
+
 
 ### 🌐API address
 
-# [`💻`](https://yts-proxy.now.sh/list_movies.json?sort_by=rating)
+# [`💻`](https://openweathermap.org/current)
 
 ## 🔎Reference web link
 
 :school: [`nomadcoders`](https://nomadcoders.co/)
 
-:book: [`React Life Cycle`](https://velog.io/@kyusung/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B5%90%EA%B3%BC%EC%84%9C-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%99%80-%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4-%EC%9D%B4%EB%B2%A4%ED%8A%B8)
-
-:book: [`Responsive Web`](https://velog.io/@leeeeunz/TIL-13.-%EB%B0%98%EC%9D%91%ED%98%95-%EC%9B%B9-Media-Query)
-
-:book: [`HashRouter And BrowserRouter`](https://codingbroker.tistory.com/72)
-
-:book: [`propTypes`](https://velog.io/@eunjin/React-PropTypes-%EC%93%B0%EB%8A%94-%EC%9D%B4%EC%9C%A0-%EB%B0%A9%EB%B2%95)
+:book: [`MDN Web Docs`](https://developer.mozilla.org/ja/docs/Web/JavaScript)
 
 ## 🌏Web Support
 
@@ -90,10 +54,6 @@ $ npm run deploy   <<json.scripts
 |                                                                               Yes                                                                                |                                                                                   11+                                                                                   |                                                                             Yes                                                                              |                                                                               Yes                                                                                |                                                                                Yes                                                                                 |
 
 ## ❗Realization
-
-Repeat for the foundation.  
-The more I repeated, the more I didn't know.  
-So I started to study more.  
-I'll apply it and I'll keep it.  
-I'm going to make my portfolio.  
-I feel better.
+- Javascriptは何よりも一番重要だということを学んだ。
+- Javascriptの多くの使い方に触れられてよかった。
+- 新しい技術を学んで応用することも重要ですが、Javascriptはずっと勉強し続けなければならないということを知った。
