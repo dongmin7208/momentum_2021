@@ -32,7 +32,6 @@ git -v 2.32.0
 | Name                                                                                                                    | Description                                |
 | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
 | [`fetch()`](https://github.com/dongmin7208/momentum_2021/blob/main/js/weather.js)               | Use fetch to connect API  |
-| [`JSON`](https://github.com/dongmin7208/momentum_2021/blob/main/js/todo.js)                           | replacing an object with a string               |
 | [`setInterval()`](https://github.com/dongmin7208/momentum_2021/blob/main/js/clock.js)            | Method repeats of real-time |
 | [`event handlers`](https://github.com/dongmin7208/momentum_2021/blob/main/js/greetings.js)                          | The event type can be detected and passed to the listener.                 |
 
